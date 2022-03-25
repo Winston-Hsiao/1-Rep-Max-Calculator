@@ -132,15 +132,34 @@ header {
     font-weight: 600;
 }
 
+#repo:link, #repo:visited {
+    background-color: #161b22;
+    color: white;
+    border: 3px solid #661eaa;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 368px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#repo:hover, #repo:active {
+    background-color: white;
+    color: #661eaa;
+    border: 3px solid #161b22;
+}
+
 #github:link, #github:visited {
     background-color: #161b22;
     color: white;
     border: 3px solid #661eaa;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 150px;
+    width: 120px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -155,11 +174,11 @@ header {
     background-color: #0a66c2;
     color: white;
     border: 3px solid white;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 150px;
+    width: 120px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -177,11 +196,11 @@ header {
     border-right: 3px solid #cf1616;
     border-bottom: 3px solid #55d7ff;
     border-left: 3px solid #55d7ff;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 150px;
+    width: 120px;
     border-radius: 8px;
     margin-bottom: 10px;
 }

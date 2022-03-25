@@ -1,5 +1,6 @@
 # 1 Rep Max Calculator v1.0.1
 By Winston Hsiao
+
 Originally created: March 2022
 
 ---
@@ -16,8 +17,8 @@ Originally created: March 2022
 
 ## Potential Future Additions
 * Add ability for users to save calculated maxes
-    * can be achieved with the additions of MongoDB express.js, and node.js 
-        * store user's name, body weight, and maxes in JSON
+    * can be achieved with the additions of MongoDB, express.js, and node.js 
+        * store user's name, body weight, and SBD maxes in JSON
     * can also be achieved with cookies and storing data client side local device browser
 * Add more pages/features
     * potential overhaul of project to *Lifting Math*
