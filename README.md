@@ -1,7 +1,8 @@
-# 1 Rep Max Calculator v1.0.1
+# 1 Rep Max Calculator v1.1.0
 By Winston Hsiao
 
-Originally created: March 2022
+Created: March, 2022
+Last Updated: March, 2022
 
 ---
 
@@ -33,5 +34,5 @@ Originally created: March 2022
 
 ## Currently in progress/development 
 - [ ] add more stats for maxes (50-95% of max calculations & and comparisons with body weight)
-- [ ] improve styling
-- [ ] fix bugs in v1.0.1
+- [x] improve styling
+- [ ] fix bugs in v1.1.0

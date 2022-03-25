@@ -75,11 +75,12 @@ header {
 }
 
 .weightCalc input[type='text'] {
-    padding: 8px;
+    padding: 10px 0px;
     text-align: center;
     margin-bottom: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -93,6 +94,7 @@ header {
 
 .btn {
     padding: 10px 15px;
+    border: 0px;
     border-radius: 6px;
     background: #ffffff;
     color: #000000;
