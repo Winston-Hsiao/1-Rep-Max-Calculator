@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="1 Rep Max Calculator for Bench, Squat, and Deadlift, by Winston Hsiao">
+    <meta name="keywords" content="1 rep max calculator, 1 rep max, calculate bench max, calculate squat max, calculate deadlift max, calculate one rep max, one rep max calculator">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>1 Rep Max Calculator</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1>1 Rep Max Calculator</h1>
+                <p>
+                    Calculate your 1 rep max for squat,
+                    bench, and deadlift. Enter weight in pounds (lbs),
+                    and number of reps done at that weight.
+                    Calculation works best in 3-8 rep range.
+                </p>
+            </div>
+            <h1><i class="fa-solid fa-dumbbell fa-2x"></i></h1>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <form class="weightCalc">
+                <div class="msg"></div>
+
+                <!-- <div>
+                    <label>Lift Type</label>
+                    <select class="select-lift" name="life-type">
+                        <option value="Squat">Squat</option>
+                        <option value="Bench">Bench</option>
+                        <option value="Deadlift">Deadlift</option>
+                    </select>
+                </div> -->
+
+                <div>
+                    <label for="weight">Weight:</label>
+                    <input type="text" id="weight">
+                </div>
+
+                <div>
+                    <label for="reps">Reps:</label>
+                    <input type="text" id="reps">
+                </div>
+                
+                <input class="btn" type="submit" value="calculate">
+            </form>
+            
+        </div>
+        
+        <div class="container">
+            <div class="oneRepMax">
+                <p>Your 1 Rep Max is: _ _ _<p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="links">
+                <div>
+                    <a href="https://github.com/Winston-Hsiao" id="github">Github</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/winston--hsiao/" id="linkedin">LinkedIn</a>
+                </div>
+                <div>
+                    <a href="https://www.tiktok.com/@winstonhsiao?lang=en" id="tiktok">Tiktok</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made by Winston Hsiao, 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+</body>
+</html>

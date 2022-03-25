@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background: #a1c3ff;
+}
+
+h1,
+h2 {
+    padding: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    background: #376de2;
+    color: #fff;
+    min-height: 200px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header p {
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header i {
+    margin-left: 5px;
+}
+
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.weightCalc {
+    border-radius: 10px;
+    background: #376de2;
+    margin-top: 15px;
+    padding: 1em;
+    min-width: 350px;
+    text-align: center;
+}
+
+.weightCalc label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.weightCalc input[type='text'] {
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+}
+
+.select-lift {
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #cecece;
+    cursor: pointer;
+}
+
+.error {
+    background: #c05151;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.oneRepMax {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600; 
+    background: #2451b1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.links {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#github:link, #github:visited {
+    background-color: #161b22;
+    color: white;
+    border: 3px solid #661eaa;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#github:hover, #github:active {
+    background-color: white;
+    color: #661eaa;
+    border: 3px solid #161b22;
+}
+
+#linkedin:link, #linkedin:visited {
+    background-color: #0a66c2;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#linkedin:hover, #linkedin:active {
+    background-color: white;
+    color: black;
+    border: 3px solid #0a66c2;   
+}
+
+#tiktok:link, #tiktok:visited {
+    background-color: #161b22;
+    color: white;
+    border-top: 3px solid #cf1616;
+    border-right: 3px solid #cf1616;
+    border-bottom: 3px solid #55d7ff;
+    border-left: 3px solid #55d7ff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#tiktok:hover, #tiktok:active {
+    background-color: white;
+    color: black;
+}
+
+
+footer {
+    min-height: 60px;
+    font-size: 14px;
+    padding: 5px;
+    background: #14357c;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    
+    .header .container {
+      flex-direction: column;
+      padding-top: 5px;
+      text-align: center;
+      max-height: 430px;
+    }
+
+    .header p {
+        margin-bottom: 0px;
+    }
+
+    .weightCalc {
+        display: block;
+        text-align: center;
+    }
+
+    footer {
+        padding: 5px;
+        background: #14357c;
+        width: 100%;
+        text-align: center;
+    }
+} 
