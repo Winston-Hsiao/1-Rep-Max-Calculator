@@ -21,6 +21,18 @@ function onSubmit(e) {
 
         setTimeout(() => msg.remove(), 3000);
     }
+    else if(reps.value === '1') {
+        msg.classList.add('error');
+        msg.innerHTML = 'Please enter a rep range of more than 1'
+
+        setTimeout(() => msg.remove(), 3000);
+    }
+    else if(weight.value >= 1000) {
+        msg.classList.add('error');
+        msg.innerHTML = 'More than 1000lbs? Who do you think you are?'
+
+        setTimeout(() => msg.remove(), 3000);
+    }
     else {
         // let max = math.round(calcMax(weightInput.value, repsInput.value));
         let max = (calcMax(weightInput.value, repsInput.value).toFixed(2));

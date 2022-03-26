@@ -1,4 +1,4 @@
-# 1 Rep Max Calculator v1.2.1
+# 1 Rep Max Calculator v1.2.2
 By Winston Hsiao
 
 Created: March, 2022
@@ -37,4 +37,8 @@ Last Updated: March, 2022
 ## Currently in progress/development 
 - [ ] add more stats for maxes (50-95% of max calculations & and comparisons with body weight)
 - [x] improve styling
-- [ ] fix bugs
+- [x] fix bugs
+
+## Changes made in this release
+- users are no longer able to put 1 rep as their rep range
+- small easter egg error warnings/messages
