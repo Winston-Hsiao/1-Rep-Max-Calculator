@@ -1,7 +1,8 @@
-# 1 Rep Max Calculator v1.1.0
+# 1 Rep Max Calculator v1.2.0
 By Winston Hsiao
 
 Created: March, 2022
+
 Last Updated: March, 2022
 
 ---
@@ -13,6 +14,7 @@ Last Updated: March, 2022
 ## Project Description
 * Web App for calculating 1 rep maxes for squat, bench, and deadlift. 
 * Responsive CSS design, mobile-friendly
+* Google Analytics for tracking page views, etc
 
 ---
 
@@ -35,4 +37,4 @@ Last Updated: March, 2022
 ## Currently in progress/development 
 - [ ] add more stats for maxes (50-95% of max calculations & and comparisons with body weight)
 - [x] improve styling
-- [ ] fix bugs in v1.1.0
+- [ ] fix bugs
