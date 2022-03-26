@@ -1,4 +1,4 @@
-# 1 Rep Max Calculator v1.2.2
+# 1 Rep Max Calculator v1.2.3
 By Winston Hsiao
 
 Created: March, 2022

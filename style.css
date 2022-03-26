@@ -28,7 +28,7 @@ h2 {
 header {
     background: #376de2;
     color: #fff;
-    min-height: 150px;
+    min-height: 160px;
 }
 
 .header h1 {
@@ -215,8 +215,8 @@ header {
 
 
 footer {
-    min-height: 60px;
-    font-size: 14px;
+    min-height: 70px;
+    font-size: 16px;
     padding: 5px;
     background: #14357c;
     left: 0;

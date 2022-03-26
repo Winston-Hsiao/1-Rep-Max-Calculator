@@ -34,7 +34,6 @@ function onSubmit(e) {
         setTimeout(() => msg.remove(), 3000);
     }
     else {
-        // let max = math.round(calcMax(weightInput.value, repsInput.value));
         let max = (calcMax(weightInput.value, repsInput.value).toFixed(2));
         oneRepMax.innerHTML = `Your 1 Rep Max is ${max} lbs`;
         // oneRepMax.innerHTML = `Your 1 Rep Max for ${strLift} is ${max} lbs`;
