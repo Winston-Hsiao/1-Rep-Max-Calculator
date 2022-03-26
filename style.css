@@ -16,7 +16,7 @@ body {
 
 h1,
 h2 {
-    padding: 15px;
+    padding: 10px;
 }
 
 .container {
@@ -28,7 +28,7 @@ h2 {
 header {
     background: #376de2;
     color: #fff;
-    min-height: 200px;
+    min-height: 150px;
 }
 
 .header h1 {
@@ -38,7 +38,6 @@ header {
 }
 
 .header p {
-    margin-bottom: 10px;
     max-width: 600px;
 }
 
@@ -63,8 +62,8 @@ header {
 .weightCalc {
     border-radius: 10px;
     background: #376de2;
-    margin-top: 15px;
-    padding: 1em;
+    margin: 10px 0px;
+    padding: 1.5em;
     min-width: 350px;
     text-align: center;
 }
@@ -77,10 +76,10 @@ header {
 .weightCalc input[type='text'] {
     padding: 10px 0px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 18px;
+    border: 1px solid #b1b1b1;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -99,8 +98,9 @@ header {
     background: #ffffff;
     color: #000000;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 10px;
+    width: 160px;
 }
 
 .btn:hover {
@@ -118,45 +118,45 @@ header {
 }
 
 .oneRepMax {
-    margin: 15px;
+    margin: 5px;
     padding: 15px;
     text-align: center;
     font-size: 24px;
     font-weight: 600; 
     background: #2451b1;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 
 .links {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     font-weight: 600;
 }
 
 #repo:link, #repo:visited {
-    background-color: #161b22;
+    background-color: #333;
     color: white;
-    border: 3px solid #661eaa;
+    border: 3px solid #6e5494;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 368px;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #repo:hover, #repo:active {
     background-color: white;
-    color: #661eaa;
-    border: 3px solid #161b22;
+    color: #6e5494;
+    border: 3px solid #333;
 }
 
 #github:link, #github:visited {
-    background-color: #161b22;
+    background-color: #333;
     color: white;
-    border: 3px solid #661eaa;
+    border: 3px solid #6e5494;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -168,7 +168,7 @@ header {
 
 #github:hover, #github:active {
     background-color: white;
-    color: #661eaa;
+    color: #6e5494;
     border: 3px solid #161b22;
 }
 
