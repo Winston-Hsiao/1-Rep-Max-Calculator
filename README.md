@@ -1,8 +1,6 @@
 # 1 Rep Max Calculator v1.2.3
 By Winston Hsiao
-
 Created: March, 2022
-
 Last Updated: March, 2022
 
 ---
@@ -29,6 +27,7 @@ Last Updated: March, 2022
     * add component to see how many times the user's bodyweight their max lift is (i.e. 2x or 3x body weight)
     * add calculations for percentages of 1 rep max, (i.e. 90% 1RM, 85% 1RM)
         * useful for determining good weight range for working sets
+* Rebuild application with React
 * Bug fixes
 * Styling changes
 
